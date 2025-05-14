@@ -18,7 +18,6 @@ import {
     Typography,
 } from "@mui/material";
 import Sidebar from "./Sidebar";
-import "./Sidebar";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 

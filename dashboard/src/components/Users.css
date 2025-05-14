@@ -1,0 +1,36 @@
+/* General Modal Styles */
+.modal-container {
+    background-color: white;
+    padding: 24px;
+    margin: 100px auto;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  /* Typography Adjustments */
+  h4 {
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  /* Button Styles */
+  button {
+    margin-right: 8px;
+  }
+  
+  /* Table Styles */
+  .table-container {
+    margin-top: 32px;
+  }
+  
+  .table-header {
+    background-color: #f0f0f0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .modal-container {
+      width: 90%;
+    }
+  }
+  

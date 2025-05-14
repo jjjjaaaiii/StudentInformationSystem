@@ -7,6 +7,7 @@ import ViewUser from "./pages/ViewUser";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import ManageStudent from "./pages/ManageStudent";
+import Users from "./components/Users";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/managestudent" element={<ManageStudent />} />
         <Route path="/demo" element={<Demo />} />
+        <Route path="/users" element={<Users />} />
       </Routes>
     </BrowserRouter>
   );

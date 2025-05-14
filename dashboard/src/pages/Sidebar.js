@@ -43,12 +43,19 @@ function Sidebar() {
                     </div>
                 </Link>
 
-                <Link to="/demo">
+                {/* <Link to="/demo">
                     <div className="item">
                         <HearingOutlined />
                         <p>DEMO</p>
                     </div>
-                </Link>
+                </Link> */}
+
+                <Link to="/users">
+                    <div className="item">
+                        <HearingOutlined />
+                        <p>USERS</p>
+                    </div>  
+                    </Link>
 
                 <Link to="/" onClick={() => localStorage.removeItem('user')}>
                     <div className="item">
